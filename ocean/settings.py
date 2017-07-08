@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'order',
     'static_pages',
+    'quest',
 ]
 
 MIDDLEWARE = [
