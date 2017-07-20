@@ -25,7 +25,7 @@ SECRET_KEY = '&(1k9@xrwunalnc(ux!gyd44w+#eup1r6oq3e8&1w+kl_!zlte'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['https://oceanmystery.herokuapp.com/', 'localhost:8000']
 
 
 # Application definition
