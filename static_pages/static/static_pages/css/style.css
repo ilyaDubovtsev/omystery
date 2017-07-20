@@ -1,0 +1,180 @@
+body{
+    background-color: #f4f2e3;
+    color: black;
+    font: normal 18px "Dosis", 'Open Sans Condensed', "Helvetica Neue", Helvetica, Arial, sans-serif;
+    overflow-x: hidden;
+	line-height: 1.5;
+    padding-top: 100px;
+}
+
+header{
+    margin-top: -40px;
+    background-color: #f4f2e3;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.5);
+}
+
+.nav-container{
+    display: block;
+    /*border-bottom: solid black 1px;*/
+}
+
+.custom-nav{
+    list-style: none; /*убираем маркеры списка*/
+    margin: 0; /*убираем отступы*/
+    padding-right: 0px; /*убираем отступы*/
+}
+
+.nav-mark{
+    display: block;
+    float:right; /*Размещаем список горизонтально для реализации меню*/
+    /*margin-left: 10px; !*Добавляем отступ у пунктов меню*!*/
+    padding: 20px 20px 20px 20px;
+    text-align: center;
+    color: #0f0f0f;
+}
+
+.nav-mark:hover{
+    background-color: #0883bf;
+    color: #f4f2e3;
+    text-decoration: none;
+}
+
+.custom-button{
+    display: block;
+    height: 50px;
+    width: 240px;
+    margin-top: 30px;
+    color: white;
+    text-align: center;
+    /*border: solid 1px black;*/
+    padding: 10px;
+    font-size: 14pt;
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+    /*text-decoration: none;*/
+}
+
+.left-btn:hover{
+    background-color: #f9661d;
+}
+
+.right-btn:hover{
+    background-color: #0753bf;
+}
+
+.left-btn{
+    float: left;
+    background-color: #f9783f;
+}
+
+.right-btn{
+    float: right;
+    background-color: #0883bf;
+}
+
+.container{
+    margin-top: 40px;
+
+}
+
+.circle{
+    display: block;
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    font-size: 16pt;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.circle-1{
+    background-color: #576aaf;
+}
+
+.circle-2{
+    background-color: #d06aab;
+}
+
+.circle-3{
+    background-color: #00b15b;
+}
+
+.circle-4{
+    background-color: #01b6c7;
+}
+
+.circle-5{
+    background-color: #7c6baf;
+}
+
+.picture{
+    display: block;
+    height: 70px;
+    width: 70px;
+    background-size: 100%;
+    -moz-background-size: 100%; /* Firefox 3.6+ */
+    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+    -o-background-size: 100%; /* Opera 9.6+ */
+    margin-left: 41px;
+    margin-bottom: 5px;
+}
+
+.line{
+    width: 200%;
+    height: 70px;
+    background-color: #568ecb;
+    color: white;
+    margin-left: -50%;
+    text-align: center;
+    padding-top: 15px;
+    font-size: 22pt;
+    box-shadow: 0 8px 10px rgba(0,0,0,0.5);
+}
+
+.quest{
+    display: block;
+    height: 370px;
+    background-size: 100%;
+    -moz-background-size: 100%; /* Firefox 3.6+ */
+    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+    -o-background-size: 100%; /* Opera 9.6+ */
+    /*filter: Blur(2px);*/
+
+}
+
+.info-box{
+    text-align: center;
+    color: white;
+    margin-top: -100px;
+    margin-bottom: 50px;
+    z-index: -1000;
+}
+
+
+
+footer{
+    height: 200px;
+    color: #adadad;
+    padding: 10px;
+}
+
+/*всплывающие окна*/
+
+#blur-bg{
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    z-index: 2000;
+}
+
+.window{
+    display: none ;
+    position: fixed;
+    width: 400px;
+    height: 300px;
+    background-color: #265a88;
+    margin-top: 40%;
+}
+
+
+
