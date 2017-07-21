@@ -25,7 +25,7 @@ SECRET_KEY = '&(1k9@xrwunalnc(ux!gyd44w+#eup1r6oq3e8&1w+kl_!zlte'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['https://omystery.herokuapp.com', 'localhost']
+ALLOWED_HOSTS = ['omystery.herokuapp.com', 'localhost']
 
 
 # Application definition
