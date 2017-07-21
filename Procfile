@@ -1,1 +1,1 @@
-web: gunicorn omystery.wsgi
+web: gunicorn ocean.wsgi
